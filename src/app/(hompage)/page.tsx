@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
 	return (
 		<>
-			<HompageHeader/>
+			<HompageHeader />
 			<div className="flex flex-col justify-center items-center">
 				<div className="flex items-start mt-10 ml-10 mr-10">
 					<h1 className="text-4xl font-bold">
@@ -37,21 +37,9 @@ export default function Home() {
 				</div>
 
 				<div className="flex gap-2 mt-4">
-					<Button
-						variant="link"
-						target="_blank"
-						href="https://github.com/ihsaanhardyanto"
-					>
-						Github
-					</Button>
+					<Button variant="link">Github</Button>
 
-					<Button
-						variant="link"
-						target="_blank"
-						href="https://www.linkedin.com/in/ihsaan-h-88bb72253/"
-					>
-						LinkedIn
-					</Button>
+					<Button variant="link">LinkedIn</Button>
 				</div>
 			</div>
 		</>
